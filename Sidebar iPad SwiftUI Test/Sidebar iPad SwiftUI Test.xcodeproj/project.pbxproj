@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF974F22939F41B002A031F /* Sidebar_iPad_SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF974F12939F41B002A031F /* Sidebar_iPad_SwiftUI_TestApp.swift */; };
+		0BF974F42939F41B002A031F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF974F32939F41B002A031F /* ContentView.swift */; };
+		0BF974F62939F41D002A031F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF974F52939F41D002A031F /* Assets.xcassets */; };
+		0BF974F92939F41D002A031F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF974F82939F41D002A031F /* Preview Assets.xcassets */; };
+		0BF975032939F41D002A031F /* Sidebar_iPad_SwiftUI_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF975022939F41D002A031F /* Sidebar_iPad_SwiftUI_TestTests.swift */; };
+		0BF9750D2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9750C2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITests.swift */; };
+		0BF9750F2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9750E2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF974FF2939F41D002A031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF974E62939F41B002A031F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF974ED2939F41B002A031F;
+			remoteInfo = "Sidebar iPad SwiftUI Test";
+		};
+		0BF975092939F41D002A031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF974E62939F41B002A031F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF974ED2939F41B002A031F;
+			remoteInfo = "Sidebar iPad SwiftUI Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF974EE2939F41B002A031F /* Sidebar iPad SwiftUI Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidebar iPad SwiftUI Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF974F12939F41B002A031F /* Sidebar_iPad_SwiftUI_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_iPad_SwiftUI_TestApp.swift; sourceTree = "<group>"; };
+		0BF974F32939F41B002A031F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BF974F52939F41D002A031F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BF974F82939F41D002A031F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BF974FE2939F41D002A031F /* Sidebar iPad SwiftUI TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sidebar iPad SwiftUI TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF975022939F41D002A031F /* Sidebar_iPad_SwiftUI_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_iPad_SwiftUI_TestTests.swift; sourceTree = "<group>"; };
+		0BF975082939F41D002A031F /* Sidebar iPad SwiftUI TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sidebar iPad SwiftUI TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF9750C2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_iPad_SwiftUI_TestUITests.swift; sourceTree = "<group>"; };
+		0BF9750E2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF974EB2939F41B002A031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF974FB2939F41D002A031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF975052939F41D002A031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF974E52939F41B002A031F = {
+			isa = PBXGroup;
+			children = (
+				0BF974F02939F41B002A031F /* Sidebar iPad SwiftUI Test */,
+				0BF975012939F41D002A031F /* Sidebar iPad SwiftUI TestTests */,
+				0BF9750B2939F41D002A031F /* Sidebar iPad SwiftUI TestUITests */,
+				0BF974EF2939F41B002A031F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BF974EF2939F41B002A031F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BF974EE2939F41B002A031F /* Sidebar iPad SwiftUI Test.app */,
+				0BF974FE2939F41D002A031F /* Sidebar iPad SwiftUI TestTests.xctest */,
+				0BF975082939F41D002A031F /* Sidebar iPad SwiftUI TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BF974F02939F41B002A031F /* Sidebar iPad SwiftUI Test */ = {
+			isa = PBXGroup;
+			children = (
+				0BF974F12939F41B002A031F /* Sidebar_iPad_SwiftUI_TestApp.swift */,
+				0BF974F32939F41B002A031F /* ContentView.swift */,
+				0BF974F52939F41D002A031F /* Assets.xcassets */,
+				0BF974F72939F41D002A031F /* Preview Content */,
+			);
+			path = "Sidebar iPad SwiftUI Test";
+			sourceTree = "<group>";
+		};
+		0BF974F72939F41D002A031F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0BF974F82939F41D002A031F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BF975012939F41D002A031F /* Sidebar iPad SwiftUI TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF975022939F41D002A031F /* Sidebar_iPad_SwiftUI_TestTests.swift */,
+			);
+			path = "Sidebar iPad SwiftUI TestTests";
+			sourceTree = "<group>";
+		};
+		0BF9750B2939F41D002A031F /* Sidebar iPad SwiftUI TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF9750C2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITests.swift */,
+				0BF9750E2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift */,
+			);
+			path = "Sidebar iPad SwiftUI TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BF974ED2939F41B002A031F /* Sidebar iPad SwiftUI Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF975122939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI Test" */;
+			buildPhases = (
+				0BF974EA2939F41B002A031F /* Sources */,
+				0BF974EB2939F41B002A031F /* Frameworks */,
+				0BF974EC2939F41B002A031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sidebar iPad SwiftUI Test";
+			productName = "Sidebar iPad SwiftUI Test";
+			productReference = 0BF974EE2939F41B002A031F /* Sidebar iPad SwiftUI Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BF974FD2939F41D002A031F /* Sidebar iPad SwiftUI TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF975152939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI TestTests" */;
+			buildPhases = (
+				0BF974FA2939F41D002A031F /* Sources */,
+				0BF974FB2939F41D002A031F /* Frameworks */,
+				0BF974FC2939F41D002A031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF975002939F41D002A031F /* PBXTargetDependency */,
+			);
+			name = "Sidebar iPad SwiftUI TestTests";
+			productName = "Sidebar iPad SwiftUI TestTests";
+			productReference = 0BF974FE2939F41D002A031F /* Sidebar iPad SwiftUI TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BF975072939F41D002A031F /* Sidebar iPad SwiftUI TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF975182939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI TestUITests" */;
+			buildPhases = (
+				0BF975042939F41D002A031F /* Sources */,
+				0BF975052939F41D002A031F /* Frameworks */,
+				0BF975062939F41D002A031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF9750A2939F41D002A031F /* PBXTargetDependency */,
+			);
+			name = "Sidebar iPad SwiftUI TestUITests";
+			productName = "Sidebar iPad SwiftUI TestUITests";
+			productReference = 0BF975082939F41D002A031F /* Sidebar iPad SwiftUI TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BF974E62939F41B002A031F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0BF974ED2939F41B002A031F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					0BF974FD2939F41D002A031F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0BF974ED2939F41B002A031F;
+					};
+					0BF975072939F41D002A031F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0BF974ED2939F41B002A031F;
+					};
+				};
+			};
+			buildConfigurationList = 0BF974E92939F41B002A031F /* Build configuration list for PBXProject "Sidebar iPad SwiftUI Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BF974E52939F41B002A031F;
+			productRefGroup = 0BF974EF2939F41B002A031F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BF974ED2939F41B002A031F /* Sidebar iPad SwiftUI Test */,
+				0BF974FD2939F41D002A031F /* Sidebar iPad SwiftUI TestTests */,
+				0BF975072939F41D002A031F /* Sidebar iPad SwiftUI TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BF974EC2939F41B002A031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF974F92939F41D002A031F /* Preview Assets.xcassets in Resources */,
+				0BF974F62939F41D002A031F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF974FC2939F41D002A031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF975062939F41D002A031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF974EA2939F41B002A031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF974F42939F41B002A031F /* ContentView.swift in Sources */,
+				0BF974F22939F41B002A031F /* Sidebar_iPad_SwiftUI_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF974FA2939F41D002A031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF975032939F41D002A031F /* Sidebar_iPad_SwiftUI_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF975042939F41D002A031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF9750D2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITests.swift in Sources */,
+				0BF9750F2939F41D002A031F /* Sidebar_iPad_SwiftUI_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF975002939F41D002A031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF974ED2939F41B002A031F /* Sidebar iPad SwiftUI Test */;
+			targetProxy = 0BF974FF2939F41D002A031F /* PBXContainerItemProxy */;
+		};
+		0BF9750A2939F41D002A031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF974ED2939F41B002A031F /* Sidebar iPad SwiftUI Test */;
+			targetProxy = 0BF975092939F41D002A031F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BF975102939F41D002A031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BF975112939F41D002A031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BF975132939F41D002A031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sidebar iPad SwiftUI Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BF975142939F41D002A031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sidebar iPad SwiftUI Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BF975162939F41D002A031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidebar iPad SwiftUI Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sidebar iPad SwiftUI Test";
+			};
+			name = Debug;
+		};
+		0BF975172939F41D002A031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidebar iPad SwiftUI Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sidebar iPad SwiftUI Test";
+			};
+			name = Release;
+		};
+		0BF975192939F41D002A031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sidebar iPad SwiftUI Test";
+			};
+			name = Debug;
+		};
+		0BF9751A2939F41D002A031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KSG2M9DG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelbonfanti.Sidebar-iPad-SwiftUI-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sidebar iPad SwiftUI Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BF974E92939F41B002A031F /* Build configuration list for PBXProject "Sidebar iPad SwiftUI Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF975102939F41D002A031F /* Debug */,
+				0BF975112939F41D002A031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF975122939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF975132939F41D002A031F /* Debug */,
+				0BF975142939F41D002A031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF975152939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF975162939F41D002A031F /* Debug */,
+				0BF975172939F41D002A031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF975182939F41D002A031F /* Build configuration list for PBXNativeTarget "Sidebar iPad SwiftUI TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF975192939F41D002A031F /* Debug */,
+				0BF9751A2939F41D002A031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BF974E62939F41B002A031F /* Project object */;
+}
